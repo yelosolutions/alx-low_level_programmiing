@@ -1,2 +1,1 @@
-# alx-low_level_programmiing
-# alx-low_level_programming
+I have low level programming directories in this repository.
