@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - check the code
+ *
+ * Reaturn: Always 0.
+ */
+
 int main(void)
 {
 	int n;
@@ -15,7 +21,7 @@ int main(void)
 	 * - you are not allowed to modify p
 	 * - only one statement
 	 * - you are not allowed to code anything else than this line of code
-	 */
+         */
 	p[5] = 98;
 	/* ...so that this prints 98\n */
 	printf("a[2] = %d\n", a[2]);
