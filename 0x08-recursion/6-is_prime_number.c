@@ -4,7 +4,7 @@ int actual_prime(int n, int i);
 
 /**
  * is_prime_number - returns 1 if input is a prime number
- * @n - number to evaluate
+ * @n: number to evaluate
  *
  * Return: 1 if input integer is a prime number
  */
@@ -18,7 +18,7 @@ int is_prime_number(int n)
 /**
  * actual_prime - finds if number is prime
  * @n: number to evaluate
- * @I: iterator
+ * @i: iterator
  *
  * Return: 1 if n is prime, 0 otherwise.
  */
