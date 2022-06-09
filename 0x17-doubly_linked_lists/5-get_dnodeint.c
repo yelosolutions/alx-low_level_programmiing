@@ -6,22 +6,20 @@
  *
  * @head: first node of the list
  * @index: index of the nth node
- * Return: nth node
+ * Return: nth node, if doesn't exist, NULL.
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	dlistint_t *temp;
-	unsigned int i;
+	unsigned int i = 0;
 
-	if (head == NULL)
+	if (!head)
 		return (NULL);
 
-	temp = head;
-	for (i = 0; i < index; i++)
+	while (head && i < index)
 	{
-		if (temp->next == NULL)
-			return (NULL);
-		temp = temp->next;
+		head = head->next;
+		i++;
 	}
-	return (temp);
+
+	return (head ? head : NULL);
 }
