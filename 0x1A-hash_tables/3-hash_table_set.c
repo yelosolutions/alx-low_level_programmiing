@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * dd_n_hash - adds a node at the beginning of a hash at a given index
+ * add_n_hash - adds a node at the beginning of a hash at a given index
  *
  * @head: head of the hash linked list
  * @key: key of the hash
